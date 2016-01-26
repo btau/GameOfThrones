@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GOTTableViewController.h
 //  GameOfThrones
 //
 //  Created by Brett Tau on 1/26/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GOTTableViewController : UITableViewController
 
 @end
-

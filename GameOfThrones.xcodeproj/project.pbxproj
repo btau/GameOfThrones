@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		0D28759D1C5808C4000665A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28759C1C5808C4000665A4 /* main.m */; };
 		0D2875A01C5808C4000665A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28759F1C5808C4000665A4 /* AppDelegate.m */; };
-		0D2875A31C5808C4000665A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875A21C5808C4000665A4 /* ViewController.m */; };
 		0D2875A61C5808C4000665A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2875A41C5808C4000665A4 /* Main.storyboard */; };
 		0D2875A91C5808C4000665A4 /* GameOfThrones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875A71C5808C4000665A4 /* GameOfThrones.xcdatamodeld */; };
 		0D2875AB1C5808C4000665A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2875AA1C5808C4000665A4 /* Assets.xcassets */; };
 		0D2875AE1C5808C4000665A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2875AC1C5808C4000665A4 /* LaunchScreen.storyboard */; };
+		0D2875B61C5808FF000665A4 /* gameofthrones.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D2875B51C5808FF000665A4 /* gameofthrones.plist */; };
+		0D2875B91C580B68000665A4 /* GOTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875B81C580B68000665A4 /* GOTTableViewController.m */; };
+		0D2875BE1C580E10000665A4 /* Character+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875BB1C580E10000665A4 /* Character+CoreDataProperties.m */; };
+		0D2875BF1C580E10000665A4 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875BD1C580E10000665A4 /* Character.m */; };
+		0D2875C21C581560000665A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875C11C581560000665A4 /* DetailViewController.m */; };
+		0D2875C51C58156B000665A4 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875C41C58156B000665A4 /* AddCharacterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,22 @@
 		0D28759C1C5808C4000665A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D28759E1C5808C4000665A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D28759F1C5808C4000665A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D2875A11C5808C4000665A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D2875A21C5808C4000665A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D2875A51C5808C4000665A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D2875A81C5808C4000665A4 /* GameOfThrones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfThrones.xcdatamodel; sourceTree = "<group>"; };
 		0D2875AA1C5808C4000665A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2875AD1C5808C4000665A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2875AF1C5808C4000665A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2875B51C5808FF000665A4 /* gameofthrones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gameofthrones.plist; sourceTree = "<group>"; };
+		0D2875B71C580B68000665A4 /* GOTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTTableViewController.h; sourceTree = "<group>"; };
+		0D2875B81C580B68000665A4 /* GOTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTTableViewController.m; sourceTree = "<group>"; };
+		0D2875BA1C580E10000665A4 /* Character+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Character+CoreDataProperties.h"; path = "../Character+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0D2875BB1C580E10000665A4 /* Character+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Character+CoreDataProperties.m"; path = "../Character+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0D2875BC1C580E10000665A4 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../Character.h; sourceTree = "<group>"; };
+		0D2875BD1C580E10000665A4 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../Character.m; sourceTree = "<group>"; };
+		0D2875C01C581560000665A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		0D2875C11C581560000665A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		0D2875C31C58156B000665A4 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCharacterViewController.h; path = ../AddCharacterViewController.h; sourceTree = "<group>"; };
+		0D2875C41C58156B000665A4 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCharacterViewController.m; path = ../AddCharacterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +76,17 @@
 			children = (
 				0D28759E1C5808C4000665A4 /* AppDelegate.h */,
 				0D28759F1C5808C4000665A4 /* AppDelegate.m */,
-				0D2875A11C5808C4000665A4 /* ViewController.h */,
-				0D2875A21C5808C4000665A4 /* ViewController.m */,
+				0D2875BA1C580E10000665A4 /* Character+CoreDataProperties.h */,
+				0D2875BB1C580E10000665A4 /* Character+CoreDataProperties.m */,
+				0D2875BC1C580E10000665A4 /* Character.h */,
+				0D2875BD1C580E10000665A4 /* Character.m */,
+				0D2875C61C5815A2000665A4 /* ViewControllers */,
 				0D2875A41C5808C4000665A4 /* Main.storyboard */,
 				0D2875AA1C5808C4000665A4 /* Assets.xcassets */,
 				0D2875AC1C5808C4000665A4 /* LaunchScreen.storyboard */,
 				0D2875AF1C5808C4000665A4 /* Info.plist */,
 				0D2875A71C5808C4000665A4 /* GameOfThrones.xcdatamodeld */,
+				0D2875B51C5808FF000665A4 /* gameofthrones.plist */,
 				0D28759B1C5808C4000665A4 /* Supporting Files */,
 			);
 			path = GameOfThrones;
@@ -80,6 +98,19 @@
 				0D28759C1C5808C4000665A4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D2875C61C5815A2000665A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D2875B71C580B68000665A4 /* GOTTableViewController.h */,
+				0D2875B81C580B68000665A4 /* GOTTableViewController.m */,
+				0D2875C01C581560000665A4 /* DetailViewController.h */,
+				0D2875C11C581560000665A4 /* DetailViewController.m */,
+				0D2875C31C58156B000665A4 /* AddCharacterViewController.h */,
+				0D2875C41C58156B000665A4 /* AddCharacterViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +174,7 @@
 				0D2875AE1C5808C4000665A4 /* LaunchScreen.storyboard in Resources */,
 				0D2875AB1C5808C4000665A4 /* Assets.xcassets in Resources */,
 				0D2875A61C5808C4000665A4 /* Main.storyboard in Resources */,
+				0D2875B61C5808FF000665A4 /* gameofthrones.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,10 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2875B91C580B68000665A4 /* GOTTableViewController.m in Sources */,
+				0D2875BF1C580E10000665A4 /* Character.m in Sources */,
 				0D2875A91C5808C4000665A4 /* GameOfThrones.xcdatamodeld in Sources */,
-				0D2875A31C5808C4000665A4 /* ViewController.m in Sources */,
+				0D2875BE1C580E10000665A4 /* Character+CoreDataProperties.m in Sources */,
+				0D2875C51C58156B000665A4 /* AddCharacterViewController.m in Sources */,
 				0D2875A01C5808C4000665A4 /* AppDelegate.m in Sources */,
 				0D28759D1C5808C4000665A4 /* main.m in Sources */,
+				0D2875C21C581560000665A4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
